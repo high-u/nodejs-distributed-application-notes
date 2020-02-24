@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "gossiper": "0.0.3",
+    "hashring": "^3.2.0"
+  }
+}

@@ -1,1 +1,23 @@
 = Nodejs distributed application notes
+
+== Notes
+
+=== Consistent Hashing
+
+[source, bash]
+----
+cd notes/consistent-hashing/3rd-eden-node-hashring/
+node app 200
+----
+
+=== Membership Protocol
+
+[source, bash]
+----
+cd notes/membership-protocol/bpot-node-gossip/
+node app 9000
+# At another terminal
+node app 9001 127.0.0.1:9000
+# At another terminal
+node app 9002 127.0.0.1:9000
+----
